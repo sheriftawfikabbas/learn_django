@@ -1,0 +1,18 @@
+<html>
+
+<head>
+    <title>POS</title>
+</head>
+<body>
+    {% if transactions.count == 0 %}
+    <p>No transactions yet.</p>
+    {% else %}
+    <ul>
+        {% for t in transactions %}
+        <li>{{t}}</li>
+        {% endfor %}
+    </ul>
+    {% endif %}
+</body>
+
+</html>
