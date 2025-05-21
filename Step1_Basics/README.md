@@ -118,9 +118,9 @@ Task 3: Views
 
 Welcome back!
 
-In the third task of this project, we will we will understand the model-view concept in Django, create a new view and map the view to a URL.
+In the third task of this project, we will understand the model-view concept in Django, create a new view and map the view to a URL.
 
-When designing a backend for your web application, a reasonable thing to do is to separate the code that deals with the front end from the code that deals with the data. This separation is known as the model-view-controller software design patter, where the view controls the frontend, the model controls the data, and the controller manages the input and output of the web application.
+When designing a backend for your web application, a reasonable thing to do is to separate the code that deals with the front end from the code that deals with the data. This separation is known as the model-view-controller software design pattern, where the view controls the frontend, the model controls the data, and the controller manages the input and output of the web application.
 
 A view in Django is the interface that you will provide to your users. We write our views as python functions in the view.py file. Let’s have a look at this file.
 
@@ -160,7 +160,7 @@ Welcome back!
 
 In the fourth task of this project, we will learn how to create a new Django model, migrate the project and access the generated SQLite database using a third party software.
 
-In this task we learn how to create a model in Django. A model represents a table in a database. Representing databases entities as model objects is a paradigm in database development known as object relational model (ORM), and Django is an example ORM platform. In ORM platforms, you create the database as a set of object, instead of creating it as a set of tables in a database management system such as MySQL or Microsoft SQL server.
+In this task we learn how to create a model in Django. A model represents a table in a database. Representing databases entities as model objects is a paradigm in database development known as object relational model (ORM), and Django is an example ORM platform. In ORM platforms, you create the database as a set of objects, instead of creating it as a set of tables in a database management system such as MySQL or Microsoft SQL server.
 
 In Django, the model is a python class which inherits the Model class in the models module in Django.
 
