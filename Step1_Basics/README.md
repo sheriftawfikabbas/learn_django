@@ -177,7 +177,7 @@ This model has 4 attributes: the first_name, last_name, email and comment. Each 
 
 CharField is a character field, and max_length states the maximum number of characters in the attribute. TextField is a another character field which can hold large text data.
 
-Too demonstrate the correspondence between the database table and the Django model here: the Contact model corresponds to a database table called Contact, which has four columns: first_name, last_name, email and comment. Each column in the table has a data type. I will show you shortly that Django does indeed translate the Contact model into a create statement for a database table!
+To demonstrate the correspondence between the database table and the Django model here: the Contact model corresponds to a database table called Contact, which has four columns: first_name, last_name, email and comment. Each column in the table has a data type. I will show you shortly that Django does indeed translate the Contact model into a create statement for a database table!
 
 To get ready to setup the model we just wrote, we have to add the configuration class of our app to the list of INSTALLED_APPS in the settings.py file. We do this by adding this item to the list:
 
